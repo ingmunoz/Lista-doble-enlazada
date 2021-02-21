@@ -113,7 +113,47 @@ using System.Threading.Tasks;
             {
                 Console.WriteLine("\n Nodo no encontrado\n");
             }
+        }
 
+            // metodo eliminar nodo
+         public void EliminarNodo()
+        {
+            Nodo actual = new Nodo();
+            Nodo anterio = new Nodo();
+            anterio = null;
+            actual = primero;
+            bool encontrado = false;
+            Console.Write(" Ingrese el dato del nodo a eliminar:");
+            int nodoBuscacado = int.Parse(Console.ReadLine());
+            while (actual != null && encontrado == false)
+            {
+                if (actual.Dato == nodoBuscacado)
+                {
+                    if (actual == primero)
+                    {
+                        primero = primero.Siguiente;
+                        primero.Atras = null;
+                    }
+                    else if (actual == ultimo)
+                    {
+                        anterio.Siguiente = null;
+                        ultimo = anterio;
+                    }
+                    else
+                    {
+                        anterio.Siguiente = actual.Siguiente;
+                        actual.Siguiente.Atras = anterio; 
+                    }
+                    Console.WriteLine("\n Nodo con el dato ({0}) fue eliminado \n", actual.Dato);
+                    encontrado = true;
+                }
+                anterio = actual;
+                actual = actual.Siguiente;
+            }
+            if (!encontrado)
+            {
+                Console.WriteLine("\n Nodo no encontrado\n");
+            }
         }
     } 
 
@@ -159,7 +199,7 @@ namespace Listas_doblemente_enlazadas
 
                     case 4:
                         Console.WriteLine("\n Eliminar un nodo en la lista \n");
-                        //l.eliminarNodo();
+                        l.EliminarNodo();
                     break;
 
                     case 5:
