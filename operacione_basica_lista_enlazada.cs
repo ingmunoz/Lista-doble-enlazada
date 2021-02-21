@@ -97,7 +97,7 @@ using System.Threading.Tasks;
             Nodo actual = new Nodo();
             actual = primero;
             bool encontrado = false;
-            Console.WriteLine("Ingrese el dato del nodo a buscar:");
+            Console.WriteLine("Ingrese el dato del nodo a buscar: ");
             int nodoBuscar = int.Parse(Console.ReadLine());
             while (actual !=null && encontrado == false)
             {
@@ -123,7 +123,7 @@ using System.Threading.Tasks;
             anterio = null;
             actual = primero;
             bool encontrado = false;
-            Console.Write(" Ingrese el dato del nodo a eliminar:");
+            Console.Write(" Ingrese el dato del nodo a eliminar: ");
             int nodoBuscacado = int.Parse(Console.ReadLine());
             while (actual != null && encontrado == false)
             {
@@ -148,6 +148,33 @@ using System.Threading.Tasks;
                     encontrado = true;
                 }
                 anterio = actual;
+                actual = actual.Siguiente;
+            }
+            if (!encontrado)
+            {
+                Console.WriteLine("\n Nodo no encontrado\n");
+            }
+        }
+
+        // metodo para modificar un nodo
+        public void Modificarnodo()
+        {
+            Nodo actual = new Nodo();// construcion de un nodo referencia para buscar el nodo a modifical
+            actual = primero;
+            bool encontrado = false;
+            Console.WriteLine("Ingrese el dato del nodo a modificar:");
+            int nodoBuscar = int.Parse(Console.ReadLine());
+            while (actual !=null && encontrado == false)
+            {
+                if (actual.Dato == nodoBuscar)
+                {
+                    Console.WriteLine("\n Nodo con el dato ({0}) encontrado \n", actual.Dato);
+                    Console.Write("Ingrese el nuevo dato para este nodo: ");
+                    actual.Dato = int.Parse(Console.ReadLine());
+                    Console.Write("\n Nodo modificado con exito \n");
+                    encontrado = true;
+                }
+               
                 actual = actual.Siguiente;
             }
             if (!encontrado)
@@ -194,7 +221,7 @@ namespace Listas_doblemente_enlazadas
                     break;
                     case 3:
                         Console.WriteLine("\n Modificar un nodo de la lista \n");
-                        //l.modificarNodo();
+                        l.Modificarnodo();
                     break;
 
                     case 4:
