@@ -1,0 +1,11 @@
+/home/wilsonmunoz/Escritorio/projecto cshar/Estructura de datos/Listas doblemente enlazadas/bin/Debug/netcoreapp3.1/Listas doblemente enlazadas
+/home/wilsonmunoz/Escritorio/projecto cshar/Estructura de datos/Listas doblemente enlazadas/bin/Debug/netcoreapp3.1/Listas doblemente enlazadas.deps.json
+/home/wilsonmunoz/Escritorio/projecto cshar/Estructura de datos/Listas doblemente enlazadas/bin/Debug/netcoreapp3.1/Listas doblemente enlazadas.runtimeconfig.json
+/home/wilsonmunoz/Escritorio/projecto cshar/Estructura de datos/Listas doblemente enlazadas/bin/Debug/netcoreapp3.1/Listas doblemente enlazadas.runtimeconfig.dev.json
+/home/wilsonmunoz/Escritorio/projecto cshar/Estructura de datos/Listas doblemente enlazadas/bin/Debug/netcoreapp3.1/Listas doblemente enlazadas.dll
+/home/wilsonmunoz/Escritorio/projecto cshar/Estructura de datos/Listas doblemente enlazadas/bin/Debug/netcoreapp3.1/Listas doblemente enlazadas.pdb
+/home/wilsonmunoz/Escritorio/projecto cshar/Estructura de datos/Listas doblemente enlazadas/obj/Debug/netcoreapp3.1/Listas doblemente enlazadas.csprojAssemblyReference.cache
+/home/wilsonmunoz/Escritorio/projecto cshar/Estructura de datos/Listas doblemente enlazadas/obj/Debug/netcoreapp3.1/Listas doblemente enlazadas.AssemblyInfoInputs.cache
+/home/wilsonmunoz/Escritorio/projecto cshar/Estructura de datos/Listas doblemente enlazadas/obj/Debug/netcoreapp3.1/Listas doblemente enlazadas.AssemblyInfo.cs
+/home/wilsonmunoz/Escritorio/projecto cshar/Estructura de datos/Listas doblemente enlazadas/obj/Debug/netcoreapp3.1/Listas doblemente enlazadas.dll
+/home/wilsonmunoz/Escritorio/projecto cshar/Estructura de datos/Listas doblemente enlazadas/obj/Debug/netcoreapp3.1/Listas doblemente enlazadas.pdb
